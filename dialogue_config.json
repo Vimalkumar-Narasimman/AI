@@ -1,0 +1,107 @@
+{
+        "intents": [
+            {
+                "tag": "greeting",
+                "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day"],
+                "responses": ["Hello, thanks for visiting", "Good to see you again", "Hi there, how can I help you today?"]
+            },
+            {
+                "tag": "goodbye",
+                "patterns": ["Bye", "See you later", "Goodbye", "Tata"],
+                "responses": ["See you later, take care", "Have a nice day, stay healthy", "Goodbye! Don't forget to take your medication."]
+            },
+            {
+                "tag": "thanks",
+                "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+                "responses": ["You're welcome! Let me know if there's anything else I can do for you.", "Glad I could assist, take care!"]
+            },
+            {
+                "tag": "hours",
+                "patterns": ["What hours are you open?", "What are your hours?", "When are you open?"],
+                "responses": ["We are open Monday to Friday from 9am to 5pm", "Our clinic hours are from 9am to 5pm during weekdays."]
+            },
+            {
+                "tag": "appointment",
+                "patterns": ["I want to schedule an appointment", "I need to make an appointment", "Can I book a checkup?"],
+                "responses": ["Sure, I can help with that. What day and time would you like?", "Absolutely, which day are you available?"]
+            },
+            {
+                "tag": "symptoms",
+                "patterns": ["I'm feeling sick", "I have a fever", "I've been feeling very tired lately"],
+                "responses": ["I'm sorry to hear that. Can you describe your symptoms in more detail?", "It sounds like you may need to see a doctor. Can you provide more specifics about how you're feeling?"]
+            },
+            {
+                "tag": "covid",
+                "patterns": ["What are the COVID-19 symptoms?", "How do I know if I have coronavirus?", "What should I do if I think I have COVID?"],
+                "responses": ["Common symptoms include fever, cough, and difficulty breathing. Please contact health services if you believe you are showing symptoms.", "If you're showing severe symptoms, it's important to seek medical attention immediately."]
+            },
+            {
+                "tag": "insurance",
+                "patterns": ["Do you accept insurance?", "Is insurance covered?", "Can I use my health insurance?"],
+                "responses": ["Yes, we accept most insurance plans. Please provide your insurance details.", "We do accept health insurance, but it's best to check with your provider about coverage details."]
+            },
+            {
+                "tag": "medication",
+                "patterns": ["I need a prescription refill", "Can I get my medication renewed?", "I'm out of my medication"],
+                "responses": ["Sure, I can assist with that. Which medication do you need refilled?", "I can help with that, what's the name of the medication you need?"]
+            },
+            {
+                "tag": "testresults",
+                "patterns": ["Have my test results come in?", "Are my lab results ready?", "Can you tell me my test results?"],
+                "responses": ["I'll need to check with the lab. Can I have your patient ID?", "I can look that up for you. What's your full name and birth date?"]
+            },
+            {
+                "tag": "vaccination",
+                "patterns": ["What vaccines are available?", "Can I get vaccinated?", "Is the flu vaccine available?"],
+                "responses": ["We currently offer flu, hepatitis, and COVID-19 vaccinations. Would you like to schedule an appointment?", "Yes, vaccinations are available. Which one are you interested in?"]
+            },
+            {
+                "tag": "emergency",
+                "patterns": ["I need immediate help", "It's an emergency", "I'm having chest pains"],
+                "responses": ["If this is a medical emergency, please call emergency services immediately.", "For emergencies, do not wait for online assistance. Call emergency services right away."]
+            },
+            {
+                "tag": "healthtips",
+                "patterns": ["How can I stay healthy?", "Give me some health tips", "How do I prevent getting sick?"],
+                "responses": ["Regular exercise, a balanced diet, and adequate sleep are essential for good health. Also, make sure to stay hydrated and practice good hygiene.",
+                "Maintaining a healthy lifestyle includes regular physical activity, a nutritious diet, adequate sleep, and stress management. Don't forget to wash your hands regularly and keep up with your vaccinations."]
+                },
+                {
+                "tag": "diet",
+                "patterns": ["What should I eat to stay healthy?", "Can you recommend a diet?", "I need help with my diet"],
+                "responses": ["A balanced diet includes a variety of fruits, vegetables, lean proteins, and whole grains. It's best to limit sugar, salt, and saturated fat intake.",
+                "For personalized dietary advice, it's best to consult with a nutritionist. Generally, aim for a balanced diet with plenty of fruits and vegetables."]
+                },
+                {
+                "tag": "exercise",
+                "patterns": ["How much should I exercise?", "Can you suggest some workouts?", "What's the best way to get fit?"],
+                "responses": ["Adults should aim for at least 150 minutes of moderate aerobic activity or 75 minutes of vigorous activity a week, along with muscle-strengthening exercises on two or more days a week.",
+                "Some great workouts include walking, running, cycling, strength training, and swimming. It's important to choose activities that you enjoy and can stick with in the long term."]
+                },
+                {
+                "tag": "mentalhealth",
+                "patterns": ["I'm feeling stressed", "Can you help with anxiety?", "What can I do for my mental health?"],
+                "responses": ["Taking time for yourself, practicing mindfulness, and speaking with a mental health professional can help manage stress and anxiety.",
+                "Regular exercise, maintaining a healthy diet, getting enough sleep, and talking to friends or a counselor can improve mental health."]
+                },
+                {
+                "tag": "sleep",
+                "patterns": ["I'm having trouble sleeping", "What can I do to sleep better?", "How can I improve my sleep quality?"],
+                "responses": ["Try to maintain a regular sleep schedule, reduce caffeine intake, and create a comfortable sleep environment. Avoid screens before bed.",
+                "Establishing a calming pre-sleep routine and making sure your bedroom is dark, quiet, and cool can help improve sleep quality."]
+                },
+                {
+                "tag": "hydration",
+                "patterns": ["How much water should I drink?", "What are the signs of dehydration?", "Is it important to stay hydrated?"],
+                "responses": ["It's generally recommended to drink at least 8 glasses of water a day, but needs can vary based on activity level, climate, and health factors.",
+                "Staying hydrated is crucial for good health. Signs of dehydration include thirst, dark urine, fatigue, and dizziness."]
+                },
+                {
+                "tag": "skincare",
+                "patterns": ["How should I take care of my skin?", "Can you give me skincare tips?", "What are the best skincare practices?"],
+                "responses": ["Protect your skin from the sun by wearing sunscreen, moisturize daily, and stay hydrated. Avoid smoking and harsh skin products.",
+                "Good skincare involves sun protection, gentle cleansing, moisturizing, and healthy lifestyle choices like a balanced diet and sufficient water intake."]
+                }
+                ]
+                }
+    
